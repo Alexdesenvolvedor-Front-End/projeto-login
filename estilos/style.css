@@ -19,7 +19,7 @@ body {
 .login {
     background-color: #ffff;
     width: 250px;
-    height: 500px;
+    height: 550px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -38,9 +38,10 @@ body {
 .imagem {
     background-color: blueviolet;
     background-image: url(../imagens/login-7626811_1280.jpg);
-    height: 156px;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 156px;
+
 
 
 
