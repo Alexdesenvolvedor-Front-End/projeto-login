@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: blueviolet;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+
+
+.login {
+    background-color: #ffff;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+
+
+
+}
+
+
+
+
+.imagem {
+    background-color: blueviolet;
+    background-image: url(../imagens/login.jpg);
+    height: 200px;
+   
+    
+   
+  
+   
+
+
+
+}
