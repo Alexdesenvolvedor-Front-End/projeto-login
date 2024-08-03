@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Typical devices breakpoints*/
+
+/*Pequenas: telas: até 600px*/
+/*Celular: de 600px até 768px*/
+/*Tablet: 768px até992px*/
+/*Grandes telas: acima de 1200px*/

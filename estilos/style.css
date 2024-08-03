@@ -26,6 +26,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+    box-shadow: 1px 1px 5px black;
 
 
 
@@ -41,13 +42,12 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     height: 156px;
+}
 
 
 
 
 
-
-
-
-
+.formulario{
+    padding: 15px;
 }
