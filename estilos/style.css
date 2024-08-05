@@ -8,27 +8,30 @@
 
 body {
     background-color: blueviolet;
-    min-width: 100vw;
+    min-height: 100vw;
     min-height: 100vh;
-    position: relative;
-
 }
 
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
 
 
 .login {
     background-color: #ffff;
-    width: 249px;
+    width: 250px;
     height: 550px;
-    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 1px 5px black;
-
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
+    
 
 
 }
@@ -37,17 +40,16 @@ body {
 
 
 .imagem {
-    background-color: blueviolet;
-    background-image: url(../imagens/login-7626811_1280.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 156px;
+    background-image: url(../imagens/architecture.jpg);
+    background-size: cover;
+    height: 25vh;
+    background-position: bottom;
+
+
 }
 
 
 
-
-
-.formulario{
-    padding: 15px;
+.form {
+    padding: 5px;
 }
