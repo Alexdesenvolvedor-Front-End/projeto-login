@@ -44,6 +44,15 @@
         width: 65%;
     }
 
+
+
+
+
+
+    .form>p {
+        font-size: 0.9em;
+    }
+
 }
 
 
@@ -70,5 +79,13 @@
     .form {
         float: left;
         width: 50%;
+    }
+
+
+
+
+
+    .form>p {
+        font-size: 0.9em;
     }
 }
