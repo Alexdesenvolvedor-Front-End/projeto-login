@@ -16,9 +16,19 @@
 
 
 @media (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #286090, #00B28E);
+    }
+
+
+
     .login {
         min-width: 80vw;
+
+
     }
+
+
 
     section>.imagem {
         float: left;
@@ -39,22 +49,26 @@
 
 
 @media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to bottom, #00B28E, #28609083);
+    }
+
     .login {
         width: 1000px
     }
 
 
-  
-  
+
+
     .imagem {
-         float: left;
-         width: 50%;
-         height: 100vh;
+        float: right;
+        width: 50%;
+        height: 100vh;
     }
 
 
-    .form{
-        float: right;
+    .form {
+        float: left;
         width: 50%;
     }
 }
