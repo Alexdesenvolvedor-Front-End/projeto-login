@@ -90,7 +90,7 @@ main {
 
 
 
-.submit{
+.submit {
     display: block;
     font-size: 1em;
     width: 100%;
@@ -108,14 +108,14 @@ main {
 
 
 
-.submit:hover{
+.submit:hover {
     background-color: #0C9ABE;
 }
 
 
 
 
-.link{
+.link {
     display: block;
     font-size: .9em;
     text-align: center;
@@ -125,17 +125,16 @@ main {
     background-color: #5fbdbab6;
     padding-top: 5px;
     margin: 5px 0;
-    padding: 6px 0 ;
+    padding: 6px 0;
     border-radius: 5px;
-    border: 1px solid #0c8682b6;  
-    color: #464444; 
+    border: 1px solid #0c8682b6;
+    color: #464444;
 
 }
 
 
 
-.link:hover{
+.link:hover {
     background-color: #098888b6;
 
 }
-
