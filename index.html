@@ -8,11 +8,12 @@
     <meta name="keywords" content="HTML5, CSS3, JavaScript">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Projeto Tela Login</title>
 </head>
 
 <body>
-    <main>  
+    <main>
 
         <section class="login">
             <div class="imagem">
@@ -23,10 +24,29 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a), faça login para realizar seu cadastro.</p>
 
-                
-                <form action="pogin.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+
+
+
+                    <input type="email" name="login" id="ilogin" required placeholder="Digite seu e-mail"
+                        minlength="10">
+                    <label for="ilogin">Login</label>
+
+
+
+
+                    <input type="password" name="senha" id="isenha" required placeholder="Digite a sua senha"
+                        minlength="8">
+                    <label for="isenha">Senha</label>
+
+
 
                 </form>
+
+
+
+
+
 
             </div>
 
