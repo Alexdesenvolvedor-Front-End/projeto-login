@@ -17,13 +17,15 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
     body {
+        /*Configuração para tablet*/
         background-image: linear-gradient(to top, #286090, #00B28E);
     }
 
 
 
     .login {
-        min-width: 80vw;
+        width: 80vw;
+        height: 280px;
 
 
 
@@ -33,7 +35,7 @@
 
     section>.imagem {
         float: left;
-        width: 35%;
+        width: 50%;
         height: 100%;
 
     }
@@ -41,8 +43,8 @@
 
 
     .form {
-        float: right;
-        width: 65%;
+        float: left;
+        width: 50%;
     }
 
 
@@ -62,11 +64,16 @@
 
 @media screen and (min-width: 992px) {
     body {
+        /*Configuração para desktop*/
         background-image: linear-gradient(to bottom, #00B28E, #28609083);
     }
 
     .login {
-        width: 1000px
+
+        width: 900px;
+        height: 350px;
+
+
     }
 
 

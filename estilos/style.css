@@ -32,7 +32,10 @@ main {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.685);
     transition: width .3s height 3s;
+    /*width .3s: Define que a transição da propriedade width (largura) ocorrerá em 0,3 segundos.*/
+    /*height 3s: Define que a transição da propriedade height (altura) ocorrerá em 3 segundos.*/
     transition-timing-function: ease;
+    /*Define a curva de aceleração para a transição, onde a mudança ocorre de forma suave, começando devagar, acelerando no meio e desacelerando no final.*/
 
 
 
@@ -166,24 +169,23 @@ input {
     border: none;
     background-color: #E8E7F9;
     outline: 0;
-
-
-
-}
-
-
-
-
-#user {
-    padding-left: 4px;
 }
 
 
 
 
 
+input:focus-within{
+    background-color: #ffff;
+}
 
 
-#lock {
+
+
+
+
+
+i {
     margin-left: 4px;
+    color: #ffff;
 }
