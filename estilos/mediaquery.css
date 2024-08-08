@@ -22,7 +22,7 @@
     }
 
 
-
+    /*configuração da section login*/
     .login {
         width: 80vw;
         height: 280px;
@@ -32,7 +32,7 @@
     }
 
 
-
+    /*configuração da section imagem*/
     section>.imagem {
         float: left;
         width: 50%;
@@ -41,7 +41,7 @@
     }
 
 
-
+    /*configuração do formulario*/
     .form {
         float: left;
         width: 50%;
@@ -51,7 +51,7 @@
 
 
 
-
+    /*configuração do paragrafo que está dentro do formulario*/
     .form>p {
         font-size: 0.9em;
     }
@@ -68,6 +68,7 @@
         background-image: linear-gradient(to bottom, #00B28E, #28609083);
     }
 
+    /*configuração do section login*/
     .login {
 
         width: 900px;
@@ -78,7 +79,7 @@
 
 
 
-
+    /*configuração da section imagem*/
     .imagem {
         float: right;
         width: 50%;
@@ -86,6 +87,11 @@
     }
 
 
+
+
+
+
+    /*configuração do formulario*/
     .form {
         float: left;
         width: 50%;
@@ -94,7 +100,7 @@
 
 
 
-
+    /*configurção do paragrafo dentro do formulario*/
     .form>p {
         font-size: 0.9em;
     }
